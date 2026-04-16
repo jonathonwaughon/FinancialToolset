@@ -24,6 +24,7 @@ import requests
 
 
 BASE_URL = "https://www.alphavantage.co/query"
+ALPHAVANTAGE_API_KEY = "CZPVYH304ZI5FGT4"
 
 
 def fetch_json(params: dict) -> dict:
