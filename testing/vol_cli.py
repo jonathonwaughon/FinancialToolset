@@ -254,7 +254,7 @@ def main():
     parser.add_argument(
         "-k",
         "--api-key",
-        default=os.getenv("ALPHAVANTAGE_API_KEY"),
+        default=ALPHAVANTAGE_API_KEY,
         help="Alpha Vantage API key (or set ALPHAVANTAGE_API_KEY)"
     )
     parser.add_argument(
